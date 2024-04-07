@@ -9,7 +9,7 @@ public class MovementHandler : MonoBehaviour
         InputHandl = GetComponent<InputHandler>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         MoveBall();
     }
